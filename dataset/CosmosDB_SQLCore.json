@@ -1,0 +1,11 @@
+{
+	"name": "CosmosDB_SQLCore",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "CosmosDb1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DocumentDbCollection"
+	}
+}
