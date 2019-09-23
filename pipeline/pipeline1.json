@@ -26,9 +26,7 @@
 						}
 					},
 					"sink": {
-						"type": "DocumentDbCollectionSink",
-						"nestingSeparator": ".",
-						"writeBehavior": "insert"
+						"type": "AzureDataExplorerSink"
 					},
 					"enableStaging": false
 				},
@@ -40,7 +38,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "CosmosDB_SQLCore",
+						"referenceName": "ADX_Table1",
 						"type": "DatasetReference"
 					}
 				]
