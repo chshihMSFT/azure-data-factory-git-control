@@ -13,7 +13,7 @@
 				"fileName": "2simpleone.csv",
 				"container": "foradf"
 			},
-			"columnDelimiter": ",",
+			"columnDelimiter": "|",
 			"escapeChar": "\\",
 			"quoteChar": "\""
 		},
