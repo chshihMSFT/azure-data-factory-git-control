@@ -15,7 +15,7 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
-					"command": ".ingest into BlobLogs (@'https://etblobsouthcentralus.blob.core.windows.net/foradf/2simpleone.csv;T/NTA3Tk6GuitURwocLwShd2zh7Ea7M3vS3sqE74faIn0e2h/UCSp+mSooehA+3qa1PYGrjGvBMTIkiGv4XiIQ=') with @'{\"format\":\"csv\",\"ValidationPolicy\":\"{\\\"ValidationOptions\\\":\\\"ValidateCsvInputConstantColumns\\\",\\\"ValidationImplications\\\":\\\"BestEffort\\\"}\"}'",
+					"command": ".ingest into BlobLogs (@'https://etblobsouthcentralus.blob.core.windows.net/foradf/2simpleone.csv?sv=2018-03-28&ss=bfqt&srt=sco&sp=rwdlacup&se=2020-09-24T16:17:48Z&st=2019-09-24T08:17:48Z&spr=https&sig=so%2B2JU8Eci8qjqUN8ImD6YMbuP7E7nPEcxYNJOLmljM%3D) with @'{\"format\":\"csv\",\"ValidationPolicy\":\"{\\\"ValidationOptions\\\":\\\"ValidateCsvInputConstantColumns\\\",\\\"ValidationImplications\\\":\\\"BestEffort\\\"}\"}'",
 					"commandTimeout": "00:20:00"
 				},
 				"linkedServiceName": {
