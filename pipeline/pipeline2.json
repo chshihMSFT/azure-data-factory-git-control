@@ -1,0 +1,29 @@
+{
+	"name": "pipeline2",
+	"properties": {
+		"activities": [
+			{
+				"name": "Azure Data Explorer Command1",
+				"type": "AzureDataExplorerCommand",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "7.00:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"command": ".ingest into BlobLogs (@'https://dgfkstrldetadxscus01.blob.core.windows.net/kht-20190924-temp-e5c334ee145d4b43a3a2d3a96fbac1df/9903_Upload_BlobLogs_2019-09-24_07-34-30.831_a8dcdc967c424dd8a1f1930776be6cdb.csv?' '******') with @'{\"format\":\"csv\",\"ValidationPolicy\":\"{\\\"ValidationOptions\\\":\\\"ValidateCsvInputConstantColumns\\\",\\\"ValidationImplications\\\":\\\"BestEffort\\\"}\"}'",
+					"commandTimeout": "00:20:00"
+				},
+				"linkedServiceName": {
+					"referenceName": "AzureDataExplorer1",
+					"type": "LinkedServiceReference"
+				}
+			}
+		],
+		"annotations": []
+	}
+}
