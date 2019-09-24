@@ -10,10 +10,10 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"fileName": "2019_09011739_1567359544.02279-data_dsa_ds_agent_60.log",
+				"fileName": "2simpleone.csv",
 				"container": "foradf"
 			},
-			"columnDelimiter": "|",
+			"columnDelimiter": ",",
 			"escapeChar": "\\",
 			"quoteChar": "\""
 		},
