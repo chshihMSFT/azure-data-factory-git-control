@@ -20,6 +20,7 @@
 						"storeSettings": {
 							"type": "AzureBlobStorageReadSettings",
 							"recursive": true,
+							"wildcardFolderPath": "*/data_dsa_log_output",
 							"wildcardFileName": "*.log",
 							"enablePartitionDiscovery": false
 						},
